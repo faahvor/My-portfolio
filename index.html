@@ -1,86 +1,412 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkpoint</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/fav.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+  </head>
+  <body class="text-[#937969]">
     <!--header section-->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Work">Work</a></li>
-                <li><a href="#Resume">Resume</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header class="relative z-[100]">
+      <nav
+        class="fixed w-[100%] bg-[#907564] font-bold text-1xl flex items-center text-[#F5DEB3] justify-between font-sans"
+      >
+        <!--logo-->
+        <img
+          class="h-[90px] ml-[30px] items-center"
+          src="images/avuwa.png"
+          alt=""
+        />
+        <!--menu-->
+        <div
+          class="hidden items-center mr-[200px] h-10 font-alata md:flex md:space-x-8"
+        >
+          <!--menu1-->
+          <div class="group">
+            <div class="menu_style">
+              <a href="#about">About</a>
+            </div>
 
-    <!--main section-->
-    <main>
-        <div class="frame">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/S0j8i4Yk61E?si=-406mDRMXmEAE6mw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div
+              class="mx-2 group-hover:border-b group-hover:border-2 group-hover:border-red"
+            ></div>
+          </div>
+          <!--menu2-->
+          <div class="group">
+            <div class="menu_style">
+              <a href="#work">Work</a>
+            </div>
+            <div
+              class="mx-2 group-hover:border-b group-hover:border-2 group-hover:border-red"
+            ></div>
+          </div>
+          <!--menu3-->
+          <div class="group">
+            <div class="menu_style">
+              <a href="https://drive.google.com/file/d/1WKBpnX50hgVBHnsl18eAoHjVCtATQZaq/view?usp=drive_link" target="_blank">Resume</a>
+            </div>
+            <div
+              class="mx-2 group-hover:border-b group-hover:border-2 group-hover:border-red"
+            ></div>
+          </div>
+          <!--menu4-->
+          <div class="group">
+            <div class="menu_style">
+              <a href="#contact">Contact</a>
+            </div>
+            <div
+              class="mx-2 group-hover:border-b group-hover:border-2 group-hover:border-red"
+            ></div>
+          </div>
         </div>
-        <br><br>
-        <audio src="music.mp3" controls></audio>
-        <br><br>
-        <!--table section-->
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Class</th>
-                <th>Subject</th>
-                <th>Score</th>
-            </tr>
-            <tr>
-                <td>Favour</td>
-                <td>GomyCode</td>
-                <td>HTML</td>
-                <td>100%</td>
-            </tr>
-            <tr>
-                <td>Amara</td>
-                <td>GomyCode</td>
-                <td>Css</td>
-                <td>30%</td>
-            </tr>
-            <tr>
-                <td>Favour</td>
-                <td>GomyCode</td>
-                <td>JS</td>
-                <td>90%</td>
-            </tr>
-        </table><br>
-    </main>
+      </nav>
+    </header>
+    <menu class="grid grid-cols-[50px,1fr]">
+      <!-- svg part -->
+      <div class="relative">
+        <div class="z-40 fixed grid ml-[20px] mt-[150px] gap-[60px]">
+          <!-- first svg -->
+          <a href="mailto:tinafavour2018@gmail.com"
+            ><svg
+              width="50px"
+              height="40px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              transform="matrix(1, 0, 0, 1, 0, 0)"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M3 8L8.44992 11.6333C9.73295 12.4886 10.3745 12.9163 11.0678 13.0825C11.6806 13.2293 12.3194 13.2293 12.9322 13.0825C13.6255 12.9163 14.2671 12.4886 15.5501 11.6333L21 8M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19Z"
+                  stroke="#907564"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <!-- second svg -->
+          <a href="https://github.com/dashboard">
+            <svg
+              width="50px"
+              height="40px"
+              viewBox="0 0 20 20"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              fill="#000000"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <title>github [#142]</title>
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <g
+                    id="Dribbble-Light-Preview"
+                    transform="translate(-140.000000, -7559.000000)"
+                    fill="#907564"
+                  >
+                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                      <path
+                        d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                        id="github-[#142]"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+          <!-- third svg -->
+          <a href="https://twitter.com/home">
+            <svg
+              width="52px"
+              height="40px"
+              viewBox="0 -2 20 20"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              fill="#000000"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <title>twitter [#154]</title>
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <g
+                    id="Dribbble-Light-Preview"
+                    transform="translate(-60.000000, -7521.000000)"
+                    fill="#907564"
+                  >
+                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                      <path
+                        d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705"
+                        id="twitter-[#154]"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+          <!-- fourth svg -->
+          <a href="https://www.linkedin.com/feed/">
+            <svg
+              width="50px"
+              height="40px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z"
+                  fill="#907564"
+                ></path>
+                <path
+                  d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z"
+                  fill="#907564"
+                ></path>
+                <path
+                  d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z"
+                  fill="#907564"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+                  fill="#907564"
+                ></path>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="mt-[110px] md:ml-[200px]">
+        <!-- about section -->
+        <section id="about" class="1 h-[100vh]">
+          <p class="font-semibold text-[22px] text-[#937969]">
+            Hola 🖐,my name is
+          </p>
+          <h1 class="heading1">Favour Ifurukpe</h1>
+          <h1 class="typewriter heading1">Frontend Developer</h1>
 
-    
-    <section id="Home">
-        
-    </section>
+          <p class="md:w-[70%] text-[#937969]">
+            Hey there! 👋 I'm a passionate fullstack Web Developer, and let me
+            tell you, words can't express how much I love crafting code magic!
+            😁 I go the extra mile to ensure my creations stand out in the
+            digital crowd, sprinkling each line of code with a dash of love and
+            creativity. 🌟 It's not just about building websites; it's about
+            creating digital experiences that leave a lasting impression. 🎨 So,
+            why settle for ordinary when you can have extraordinary? Press that
+            button below 🤝 and let's embark on a journey filled with
+            innovation, creativity, and a sprinkle of coding fairy dust! ✨
+          </p>
+          <a href="https://wa.me/+2347048018665" class="ml-[250px] mt-6 relative inline-flex items-center justify-start inline-block px-7 py-3 overflow-hidden font-medium transition-all bg-[#937969] rounded-full hover:bg-white group">
+            <span class="absolute inset-0 border-0 group-hover:border-[25px] ease-linear duration-100 transition-all border-white rounded-full"></span>
+            <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-[#937969]">Button Text</span>
+            </a>
+        </section>
+        <!-- intoduction section -->
+        <section
+          class="2 grid sm:rid-rows-[1fr,1fr] md:grid-cols-[1fr,400px] h-[100vh]"
+        >
+          <div>
+            <h1 class="heading1">
+              Introduction
+              <div class="border-b-2 border-b-[#937969] mr-[75%]"></div>
+            </h1>
+            <p class="md:w-[70%] mt-[19px] text-[#937969]">
+              Step into my portfolio, where dedication meets innovation. With a fervent desire to learn, I embarked on a journey through the intricacies of Tailwind CSS, JavaScript, HTML, and React. Despite the challenges, I embraced each hurdle as an opportunity for growth. Through countless hours of study and practice, I honed my skills, pushing past limitations to create something truly exceptional. Every line of code is a testament to my unwavering commitment and passion for excellence. Join me as I continue to explore new horizons, driven by a relentless pursuit of knowledge and a determination to make a meaningful impact in the digital landscape.
+            </p>
+            <div class="grid grid-cols-[1fr,1fr] gap-4 mt-3">
+              <div>
+                <h3 class="h3">About Me</h3>
+                <p class="md:w-[80%] text-[#937969]">
+                  If Innovative, dedicated, and compassionate, is a person that is me, I bring a unique blend of creativity and expertise to every project. With a keen eye for detail and a passion for excellence, I strive to exceed expectations and make a meaningful impact
+                </p>
+              </div>
+              <div>
+                <h3 class="h3">About Portfolio</h3>
+                <p class="md:w-[80%] text-[#937969]">
+                  This portfolio highlights my diverse projects, from calculators and To-do Lists to intricate websites crafted with HTML, Tailwind CSS, and JavaScript. Each project demonstrates my prowess in web development, showcasing practical solutions and creativity. Explore to witness my proficiency in software development and the breadth of my expertise.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img
+              class=" mt-4 w-[40%] ml-[150px] md:ml-[-30px] md:w-[100%] md:h-[70%] border-4 border-[#937969] rounded-xl"
+              src="images/Snapchat-2087739145 (2).jpg"
+              alt=""
+            />
+          </div>
+        </section>
+        <div
+          class="border-[40px] mt-[200px] mr-8 md:mt-[60px] border-[#907564]"
+        ></div>
+        <section id="work" class="mt-[60px]">
+          <h1 class="text-center text-[30px] font-bold mb-8">MY WORK</h1>
+         <div class="grid grid-rows  md:grid-cols-[1fr,1fr] gap-5 mr-8">
+          <div class=" flex flex-col gap-3">
+            <div class=" imgDiv hover:border-purple-500">
+              <img src="images/in.jpg " alt="">
+            </div>
+            <div class="flex flex-col">
+              <h1 class="text-center text-2xl">LOGIN PAGE</h1>
+              <p class="text-center ">Login page with a transparent container, you can sign up and also login with the details, if it is correct it automatically takes you to youtube</p>
+              <div class="flex gap-8 justify-center font-bold ">
+                <a href="https://faahvor.github.io/login/">LIVE</a>
+              <a href="https://github.com/faahvor/login">GITHUB</a>
+              </div>
+            </div>
 
-    <section id="About">
-        
-    </section>
-    <section id="Work">
-        
-    </section>
-    <section id="Resume">
-        
-    </section>
-    <section id="Contact">
-        <form action="">
-            <label for="Username">Username</label>
-            <input type="text"><br>
-            <label for="email">EMail</label>
-            <input type="email"><br>
-           <textarea name="" id="area" cols="30" rows="10"></textarea>
-        </form>
-        
-    </section>
+          </div>
+          <div>
+          <div class="imgDiv hover:border-gray-500">
+            <img src="images/tri.jpg" alt="">
+           </div class=" flex flex-col gap-3">
+           <div class="flex flex-col mt-3">
+            <h1 class="text-center text-2xl">TRIBUTE</h1>
+            <p class="text-center ">A tribute page for Angela Yu, because i adore her so much, i love her teaching because she teaches so effortlessly and she makes sure you understand </p>
+            <div class="flex gap-8 justify-center font-bold ">
+              <a href="https://faahvor.github.io/Tribute/">LIVE</a>
+            <a href="https://github.com/faahvor/Tribute">GITHUB</a>
+            </div>
+          </div>
+          </div>
 
-    
-</body>
+          <div class=" flex flex-col gap-3">
+          <div class="imgDiv hover:border-purple-500">
+            <img
+             src="images/lator.jpg" alt="">
+          </div>
+          <div class="flex flex-col">
+            <h1 class="text-center text-2xl">CALCULATOR</h1>
+            <p class="text-center ">A calculatot i tried inline javascript with, i wanted to test what i learnt and it came out well </p>
+            <div class="flex gap-8 justify-center font-bold ">
+              <a href=" https://faahvor.github.io/calculator/">LIVE</a>
+            <a href="https://github.com/faahvor/calculator">GITHUB</a>
+            </div>
+          </div>
+          </div>
+
+          <div class=" flex flex-col gap-3">
+          <div class="imgDiv hover:border-pink-300">
+            <img src="images/log.jpg" alt="">
+          </div>
+          <div class="flex flex-col">
+            <h1 class="text-center text-2xl">TO-DO LIST</h1>
+            <p class="text-center ">A To-do list, i never thought it will comeout this way,i got tired and wanted to stop building ,but it was worth it, i learnt alot while building this</p>
+            <div class="flex gap-8 justify-center font-bold ">
+              <a href="https://faahvor.github.io/To-do/">LIVE</a>
+            <a href="https://github.com/faahvor/To-do">GITHUB</a>
+            </div>
+          </div>
+          </div>
+         
+          <div class=" flex flex-col gap-3 ">
+          <div class="imgDiv hover:border-green-300 ">
+            <img src="images/clip.PNG" alt="">
+            <div class="flex flex-col">
+              <h1 class="text-center text-2xl">CLIPBOARD WEBSITE</h1>
+              <p class="text-center ">The first website i tried with tailwindcss, and i love it because of it's simplicity</p>
+              <div class="flex gap-8 justify-center font-bold ">
+                <a href=" https://faahvor.github.io/Clipboard-Website/">LIVE</a>
+              <a href="https://github.com/faahvor/Clipboard-Website">GITHUB</a>
+              </div>
+            </div>
+           </div>
+           </div>
+         </div>
+        </section>
+        <!-- contact section -->
+        <section id="contact" class=" mt-[15rem] ">
+          <div class="grid grid-cols-[200px,1fr]  gap-[5rem]">
+            <div>
+              <img
+                class="   h-full  rounded-full border-4 border-[#937969] "
+                src="images/sec.jpeg"
+                alt=""
+              />
+            </div>
+             <div class="font-emily  text-[#937969]">
+              <h1 class="text-[40px]">Let's Work Together</h1>
+              <div class="flex gap-4">
+              <svg  width="40px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11.05 14.95L9.2 16.8C8.81 17.19 8.19 17.19 7.79 16.81C7.68 16.7 7.57 16.6 7.46 16.49C6.43 15.45 5.5 14.36 4.67 13.22C3.85 12.08 3.19 10.94 2.71 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C10.83 13.32 10.94 13.42 11.04 13.52C11.44 13.91 11.45 14.55 11.05 14.95Z" fill="#292D32"></path> <path d="M21.9696 18.3291C21.9696 18.6091 21.9196 18.8991 21.8196 19.1791C21.7896 19.2591 21.7596 19.3391 21.7196 19.4191C21.5496 19.7791 21.3296 20.1191 21.0396 20.4391C20.5496 20.9791 20.0096 21.3691 19.3996 21.6191C19.3896 21.6191 19.3796 21.6291 19.3696 21.6291C18.7796 21.8691 18.1396 21.9991 17.4496 21.9991C16.4296 21.9991 15.3396 21.7591 14.1896 21.2691C13.0396 20.7791 11.8896 20.1191 10.7496 19.2891C10.3596 18.9991 9.96961 18.7091 9.59961 18.3991L12.8696 15.1291C13.1496 15.3391 13.3996 15.4991 13.6096 15.6091C13.6596 15.6291 13.7196 15.6591 13.7896 15.6891C13.8696 15.7191 13.9496 15.7291 14.0396 15.7291C14.2096 15.7291 14.3396 15.6691 14.4496 15.5591L15.2096 14.8091C15.4596 14.5591 15.6996 14.3691 15.9296 14.2491C16.1596 14.1091 16.3896 14.0391 16.6396 14.0391C16.8296 14.0391 17.0296 14.0791 17.2496 14.1691C17.4696 14.2591 17.6996 14.3891 17.9496 14.5591L21.2596 16.9091C21.5196 17.0891 21.6996 17.2991 21.8096 17.5491C21.9096 17.7991 21.9696 18.0491 21.9696 18.3291Z" fill="#937969"></path> </g></svg>
+             <p class="flex self-center hover:scale-105">+2347048018665</p>
+            </div>
+            <div>
+              <p>Better still hit the button below to take you directly to me🤗 since you skipped the first button</p>
+              <a href="https://wa.me/+2347048018665" class="ml-9 mt-4 relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-medium transition-all bg-[#937969] rounded-full hover:bg-white group">
+                <span class="absolute inset-0 border-0 group-hover:border-[25px] ease-linear duration-100 transition-all border-white rounded-full"></span>
+                <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-[#937969]">Button Text</span>
+                </a>
+            </div>
+
+            </div>
+          </div>
+        </section>
+      </div>
+
+     
+    </menu>
+  </body>
 </html>
